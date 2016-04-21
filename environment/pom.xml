@@ -24,7 +24,7 @@
     <version>0.0.1</version>
   </parent>
  
-  <groupId>integration.rh.org</groupId>
+  <groupId>integration.redhat.org</groupId>
   <artifactId>environment</artifactId> 
   <version>0.0.1-SNAPSHOT</version>
   <packaging>bundle</packaging>
@@ -41,7 +41,7 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       
       <!-- fabric8 deploy profile configuration -->
-        <fabric8.profile>pprofile_env</fabric8.profile>
+        <fabric8.profile>fabric_env</fabric8.profile>
         <fabric8.features></fabric8.features>
     </properties>
 

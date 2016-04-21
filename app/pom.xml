@@ -25,7 +25,7 @@
     <version>0.0.1</version>
   </parent>
  
-  <groupId>integration.rh.org</groupId>
+  <groupId>integration.redhat.org</groupId>
   <artifactId>app</artifactId> 
   <version>0.0.1-SNAPSHOT</version>
   <packaging>bundle</packaging>
@@ -42,8 +42,8 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       
             <!-- fabric8 deploy profile configuration -->
-        <fabric8.profile>pprofile_app</fabric8.profile>
-        <fabric8.parentProfiles>pprofile_env</fabric8.parentProfiles>
+        <fabric8.profile>fabric_app</fabric8.profile>
+        <fabric8.parentProfiles>fabric_env</fabric8.parentProfiles>
         <fabric8.features>camel-blueprint</fabric8.features>
     </properties>
 
