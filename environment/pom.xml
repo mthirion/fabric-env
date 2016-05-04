@@ -66,8 +66,7 @@
           <executions>
             <execution>
               <id>copy-resources</id>
-              <!-- here the phase you need -->
-              <phase>verify</phase>
+              <phase>validate</phase>
               <goals>
                 <goal>copy-resources</goal>
               </goals>
@@ -113,8 +112,7 @@
           <executions>
             <execution>
               <id>copy-resources</id>
-              <!-- here the phase you need -->
-              <phase>verify</phase>
+              <phase>validate</phase>
               <goals>
                 <goal>copy-resources</goal>
               </goals>
